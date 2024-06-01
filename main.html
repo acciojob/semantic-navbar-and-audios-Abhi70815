@@ -8,18 +8,26 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	
-		<nav>
-			<ul>
-             <li><a href="#a1">audio1</a></li>
-		     <li><a href="#a2">audio2</a></li>
-			 <li><a href="#a3">audio3</a></li>
-			</ul>
-		</nav>
-		<p id="a1"> Hi i am audio 1</p>
-		<p id="a2"> Hi i am audio 2</p>
-		<p id="a3"> Hi i am audio 3</p>
-	
+	<nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <img src="profile.jpg" alt="John Doe smiling" role="img">
+            <p>Welcome to my portfolio! I am a web developer with a passion for creating accessible and user-friendly websites. Below you can find some of my recent projects.</p>
+        </section>
+        <section id="projects">
+            <h2 role="heading">Projects</h2>
+            <ul role="list">
+                <li role="listitem">Project A: A web application for task management.</li>
+                <li role="listitem">Project B: An e-commerce site for handmade crafts.</li>
+                <li role="listitem">Project C: A personal blog about tech trends.</li>
+            </ul>
+        </section>
 	 <section id="audio">
             <h2 role="heading">3 random audios</h2>
             <audio controls>
